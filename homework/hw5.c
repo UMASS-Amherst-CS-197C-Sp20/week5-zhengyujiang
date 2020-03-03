@@ -1,7 +1,17 @@
+#include <stdio.h>
+#include "dependencies.h"
+
 //Questions 1-3 are not in this file. See readme.txt
 
 //Question 3 part 2. 
 //Set 'globalInt' to be equal to 37
+int globalInt = 37;
+
+char intToChar(int num){
+  int temp = num + 5;
+  char c = (char)temp;
+  return c;
+}
 
 int charToInt(char input){
 	int output = intToChar(input);
