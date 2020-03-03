@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dependencies.h"
 
 //Questions 1-3 are not in this file. See readme.txt

@@ -1,2 +1,2 @@
 main: hw5.c dependencies.h
-  gcc hw5.c -o hw5
+	gcc hw5.c -o hw5

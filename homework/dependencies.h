@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-typedef struct{
+struct dog{
 	int age;
 	char* name;
-} dog;
+};
